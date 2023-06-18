@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tarefas</title>
+</head>
+<body>
+    <h1>Tarefas</h1>
+
+    <form id="addTaskForm">
+        <input type="text" id="taskInput" placeholder="Digitar tarefa..." required>
+        <button type="submit">Adicionar Tarefa</button>
+    </form>
+
+    <!-- Display the to-do list -->
+    <h2>Tarefas:</h2>
+
+    <table id="taskTable">
+        <thead>
+            <tr>
+                <th>Tarefa</th>
+                <th>Status</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="taskList">
+        </tbody>
+    </table>
+    <button id="updateButton">Atualizar Estado</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
